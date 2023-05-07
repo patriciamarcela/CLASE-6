@@ -1,0 +1,28 @@
+header{  
+    background-image:url("../fotos/picture5.jpg"); width:100%;height: 300px;border-bottom-width: 3m,chocolate;
+    background-position:center;/*justify-content: space-around;*/
+  }
+  
+    /*TODO: borde al picture5 y color*/   
+    /*border-botom color*/
+    .logo{ text-align: center;  }
+    .lista-nombre{
+      display: flex; 
+      flex-direction:column;
+    }
+    .nombre{ 
+      font-size: 2em;
+      font-style: italic;
+      display: flex; 
+      justify-content: center;}
+    .lista {
+      display: flex;
+      list-style: none;
+      justify-content: space-around;
+      color:black;
+      font-size: 1em;
+      font-family: arial;
+      background-color: white;
+      flex-direction: row; 
+      align-items: flex-end;   }
+    
